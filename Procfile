@@ -1,2 +1,2 @@
-release: pip install --no-cache-dir GDAL
+release: python manage.py migrate
 web: gunicorn GeoDeer.wsgi --log-file -
