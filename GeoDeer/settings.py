@@ -15,7 +15,7 @@ import environ
 import dj_database_url
 import os
 
-DATABASE_URL = "postgresql://postgres:kGTrHhbgUuDTvSSQMwfawepGISSgoycX@interchange.proxy.rlwy.net:32100/railway"
+DATABASE_URL = "postgresql://postgres:WpwXFHXLOotwKPpGMJclNvpkYyxUqGnD@mainline.proxy.rlwy.net:31115/railway"
 
 
 env = environ.Env()
