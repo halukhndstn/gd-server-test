@@ -1,3 +1,2 @@
-web: gunicorn GeoDeer.wsgi --log-file - 
-
-web: python manage.py migrate && gunicorn GeoDeer.wsgi
+release: python manage.py migrate
+web: gunicorn GeoDeer.wsgi --log-file -
